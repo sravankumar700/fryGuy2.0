@@ -1,0 +1,17 @@
+{
+  "name": "FRYGUY 2.0 Digital Restaurant System",
+  "short_name": "FRYGUY",
+  "description": "One connected digital system for FRYGUY - Customer QR ordering, Counter POS, Kitchen Display, and Owner Analytics.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF9F5",
+  "theme_color": "#ED1C24",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "64x64 192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

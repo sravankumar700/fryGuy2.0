@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Archivo Black", "Anton", sans-serif;
+  --font-sans: "DM Sans", "Instrument Sans", sans-serif;
+  --font-condensed: "Barlow Condensed", sans-serif;
+
+  --color-fry-red: #ED1C24;
+  --color-fry-darkred: #B90F18;
+  --color-fry-lightred: #FFE8E9;
+  --color-fry-warmwhite: #FFF9F5;
+  --color-fry-charcoal: #171717;
+  --color-fry-softcharcoal: #3A3A3A;
+  --color-fry-muted: #737373;
+  --color-fry-border: #E8E2DE;
+  --color-fry-success: #218739;
+  --color-fry-warning: #C98200;
+  --color-fry-error: #C62828;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #09090b;
+  color: #f4f4f5;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display);
+}
+
+.font-condensed {
+  font-family: var(--font-condensed);
+}
+
+/* Custom scrollbar for operational tables / KDS / Bento tiles */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}

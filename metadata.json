@@ -1,0 +1,6 @@
+{
+  "name": "fryguy2.o",
+  "description": "Connected digital restaurant system for FRYGUY featuring customer QR table ordering, live kitchen display, counter POS, tracking, and owner analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

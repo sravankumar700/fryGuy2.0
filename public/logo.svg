@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="100%" height="100%">
+  <!-- Official FRYGUY Brand Red Container -->
+  <rect width="320" height="80" rx="12" fill="#ED1C24" />
+  
+  <!-- Exact FRYGUY Bold Wordmark matching uploaded brand image -->
+  <text x="150" y="54" 
+        font-family="'Archivo Black', 'Anton', 'Arial Black', Impact, sans-serif" 
+        font-size="44" 
+        font-weight="900" 
+        letter-spacing="-1.5px" 
+        fill="#FFFFFF" 
+        text-anchor="middle">
+    FRYGUY<tspan font-size="20" dy="-20" dx="4" font-weight="700">®</tspan>
+  </text>
+</svg>
